@@ -4,3 +4,84 @@
 body{
     font-family: 'Prompt', sans-serif;
 }
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    padding-right:28px;
+    padding-left:28px;
+}
+
+/*NAVBAR*/
+
+.navbar{
+    display:flex;
+    height:138px;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.menu ul li{
+    display:inline;
+    list-style-type: none;
+    padding:0;
+}
+
+.menu{
+    display:flex;
+    justify-content: space-between;
+}
+
+
+
+.logo{
+    flex-basis:7%;
+}
+
+.logo-img{
+    width:60%;
+    height:auto;
+}
+
+.menu{
+    flex-basis:20%;
+}
+
+.contact-search{
+    flex-basis:19%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.menu-link{
+    font-size:18px;
+    color:#000000;
+    text-decoration:none;
+}
+.menu-link:hover{
+    font-size:18px;
+    color:#000000;
+    text-decoration:none;
+}
+
+.navbar-search{
+    background-color:#D21A4C;
+    width:193px;
+    height:56px;
+    padding-left:22px;
+    border-radius:12px;
+    box-shadow:none;
+    border:none;
+}
+
+::placeholder{
+    color:#ffffff;
+    font-size:18px;
+}
+::-moz-placeholder{
+    color:#ffffff;
+    font-size:18px;
+}

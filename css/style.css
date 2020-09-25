@@ -470,3 +470,45 @@ body{
         margin-top:11px;
     }
 }
+
+/*FINAL SECTION*/
+
+.final-section{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:217px;
+    background:url(https://s3-alpha-sig.figma.com/img/b2cc/2285/2680b5937a7128e08e195f30174cdf1a?Expires=1601856000&Signature=Kl1guFZwj1kDEDtl1dlxFp5jkzJboj4eL~YWeu5GRHAQX8pwbLjWY8nwV5NWfFAUMgX~rSYrhdHviGyFe-TzIdzpDUjpx0BzXsWokXg0CXjRHZlKGx9wuDU5kkCG21AMn~1UE2U7m~HU81yIppQrh8x1OcZ6dvqQDk4Uxb4keqApqBtp~3N~8Y6AMaXT1FjqFWUOtD-f9wT9W5MDc3XeBic5OZUA~mpu~JcRG4SEMsR4KSn2~dPQIOmLcSQDHZK8A5wHvjwabLvpzRIcXCZsEzTA0At8g2YVSuDCJZSS-Al3ZxC~4yqxCHgMGB0vWAAaeaSUB~WYpE7p6BTW81ITnw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    margin-top:40px;
+    margin-bottom:40px;
+    border-radius:12px;
+}
+
+.final-section-button{
+    background-color:#ffffff;
+    color:#D21A4C;
+    width:216px;
+    height:48px;
+    line-height:48px;
+    text-align:center;
+    border-radius:12px;
+    font-size:16px;
+}
+
+@media (max-width:767px){
+    .final-section{
+        height:180px;
+        margin-top:25px;
+        margin-bottom:30px;
+    }
+
+    .final-section-button{
+        width:180px;
+        height:38px;
+        line-height:38px;
+        font-size:14px;
+    }
+}

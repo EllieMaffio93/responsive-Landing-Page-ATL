@@ -367,3 +367,19 @@ body{
         text-align:center;
     }
 }
+
+/*DIVIDER*/
+
+.divider{
+    width:100%;
+    margin-top:39px;
+    margin-bottom:39px;
+    border: 1px solid #808080;
+}
+
+@media (max-width:767px){
+    .divider{
+        margin-top:30px;
+        margin-bottom:20px;
+    }
+}

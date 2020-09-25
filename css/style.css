@@ -343,6 +343,22 @@ body{
     background-position:center;
 }
 
+.experience-button-mobile{
+    width:100%;
+    text-align:center;
+    color:#D21A4C;
+    border:1px solid #D21A4C;
+    border-radius:12px;
+    height:38px;
+    line-height:38px;
+}
+
+@media (min-width:768px){
+    .experience-button-mobile{
+        display:none;
+    }
+}
+
 @media (max-width:767px){
     .experience-column{
         flex-basis:48%;
@@ -374,7 +390,7 @@ body{
     width:100%;
     margin-top:39px;
     margin-bottom:39px;
-    border: 1px solid #808080;
+    border-bottom: 0.3px solid #808080;
 }
 
 @media (max-width:767px){

@@ -399,3 +399,74 @@ body{
         margin-bottom:20px;
     }
 }
+
+/*COVID BANNER*/
+
+.covid-banner{
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+    align-items:center;
+    height:141px;
+    padding-top:34px;
+    padding-left:45px;
+}
+
+.covid-banner-title{
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.6px;
+    color: #222223;
+    font-weight:400;
+}
+
+.covid-description{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.533333px;
+    color: #7A7A7A;
+    font-weight:400;
+    margin-top:9px;
+}
+
+.covid-link{
+    color:#D21A4C;
+    text-decoration:none;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.533333px;
+    margin-top:15px;
+}
+
+.covid-link:hover{
+    text-decoration:underline;
+}
+
+@media (max-width:767px){
+    .covid-banner{
+        height:168px;
+        padding-top:24px;
+        padding-left:11px;
+    }
+
+    .covid-banner-title{
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 0.466667px;
+    }
+
+    .covid-description{
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.4px;
+        margin-top:4px;
+    }
+
+    .covid-link{
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.4px;
+        margin-top:11px;
+    }
+}

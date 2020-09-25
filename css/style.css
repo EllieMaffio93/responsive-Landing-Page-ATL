@@ -279,6 +279,7 @@ body{
 
 .experience-card{
     height:300px;
+    margin-bottom:27px;
     background-color:#222;
     border-radius:12px;
     position:relative;
@@ -349,6 +350,7 @@ body{
     }
     .experience-card{
         height:193px;
+        margin-bottom:19px;
     }
 
     .tag-name{

@@ -529,6 +529,7 @@ footer{
     flex-direction:row;
     justify-content: flex-start;
     flex-wrap:wrap;
+    margin-bottom:40px;
 }
 
 .footer-first-column{
@@ -586,6 +587,8 @@ footer{
 
 .white-line{
     width:939px;
+    border-bottom:0.3px solid #ffffff;
+    margin:0 auto;
 }
 
 @media (max-width:767px){
@@ -616,5 +619,9 @@ footer{
     .social-icon{
         margin-top:19px;
         font-size:28px;
+    }
+
+    .white-line{
+        width:344px;
     }
 }

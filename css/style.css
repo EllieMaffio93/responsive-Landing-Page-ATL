@@ -745,3 +745,26 @@ footer{
         font-size:13px;
     }
 }
+
+/*THE COLLAPSIBLE NAVBAR*/
+
+@media (max-width:768px){
+    .navbar-collapse,
+    .menu,
+    .contact-search{
+        flex-direction:column;
+        
+    }
+
+    .navbar-collapse{
+        display:none;
+    }
+
+    .navbar{
+        justify-content: flex-start;
+    }
+
+    .logo-img{
+        width:90%;
+    }
+}

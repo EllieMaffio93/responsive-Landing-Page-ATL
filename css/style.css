@@ -780,6 +780,12 @@ footer{
 
 /*THE COLLAPSIBLE NAVBAR*/
 
+@media (min-width:769px){
+    .toggle{
+        display:none;
+    }
+}
+
 @media (max-width:768px){
     .navbar-collapse,
     .menu,
@@ -798,17 +804,12 @@ footer{
 
 }
 
-@media (min-width:769px){
-    .navbar-toggle{
-        display:none;
-    }
-}
+
 
 .toggle{
     font-size:37px;
     color:#D21A4C;
     align-self: flex-end;
-    display: initial;
     cursor: pointer;
     line-height:138px;
 }

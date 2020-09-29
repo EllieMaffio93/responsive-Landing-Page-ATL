@@ -28,6 +28,13 @@ body{
 .navbar{
     display:flex;
     height:138px;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.navbar-collapse{
+    display:flex;
+    flex-basis:1061px;
     justify-content: space-between;
     align-items:center;
 }
@@ -71,6 +78,7 @@ body{
     color:#000000;
     text-decoration:none;
     text-align:center;
+    margin-right:10px;
 }
 .menu-link:hover{
     font-size:18px;
@@ -143,6 +151,30 @@ body{
 }
 :focus{
     outline:none;
+}
+
+@media (max-width:1650px){
+    .navbar-collapse{
+        flex-basis:910px;
+    }
+}
+
+@media (max-width:1440px){
+    .navbar-collapse{
+        flex-basis:800px;
+    }
+}
+
+@media (max-width:1350px){
+    .navbar-collapse{
+        flex-basis:760px;
+    }
+}
+
+@media (max-width:1025px){
+    .navbar-collapse{
+        flex-basis:650px;
+    }
 }
 
 @media (max-width:767px){
@@ -760,11 +792,23 @@ footer{
         display:none;
     }
 
-    .navbar{
-        justify-content: flex-start;
-    }
-
     .logo-img{
         width:90%;
     }
+
+}
+
+@media (min-width:769px){
+    .navbar-toggle{
+        display:none;
+    }
+}
+
+.toggle{
+    font-size:37px;
+    color:#D21A4C;
+    align-self: flex-end;
+    display: initial;
+    cursor: pointer;
+    line-height:138px;
 }

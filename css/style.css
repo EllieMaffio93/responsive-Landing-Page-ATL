@@ -78,15 +78,34 @@ body{
     text-decoration:none;
 }
 
+.search-box{
+    display:flex;
+    justify-content: center;
+}
+
 .navbar-search{
     background-color:#D21A4C;
-    width:193px;
+    width:134px;
     height:56px;
     padding-left:22px;
-    border-radius:12px;
+    border-top-left-radius:12px;
+    border-bottom-left-radius:12px;
     box-shadow:none;
     border:none;
 }
+
+.button-search{
+    width:59px;
+    height:56px;
+    background-color:#D21A4C;
+    border-top-right-radius:12px;
+    border-bottom-right-radius:12px;
+    text-align:center;
+    color:#ffffff;
+    line-height:56px;
+}
+
+
 
 ::placeholder{
     color:#ffffff;
@@ -141,6 +160,12 @@ body{
     border-radius:12px;
     text-align:center;
     line-height:48px;
+}
+
+@media (max-width:1024px){
+    .header{
+        height:390px;
+    }
 }
 
 @media (max-width:767px){
@@ -232,6 +257,13 @@ body{
 .category-text-paragraph{
     font-size:16px;
     font-weight:400;
+}
+
+@media (max-width:1023px){
+    .category-column{
+        flex-basis:100%;
+    }
+
 }
 
 @media (max-width:767px){
@@ -361,6 +393,12 @@ body{
     }
 }
 
+@media (max-width:1024px){
+    .experience-column{
+        flex-basis:32%;
+    }
+}
+
 @media (max-width:767px){
     .experience-column{
         flex-basis:48%;
@@ -445,6 +483,12 @@ body{
     text-decoration:underline;
 }
 
+@media (max-width:1024px){
+    .covid-banner{
+        height:211px;
+    }
+}
+
 @media (max-width:767px){
     .covid-banner{
         height:168px;
@@ -513,6 +557,8 @@ body{
         line-height:38px;
         font-size:14px;
     }
+
+    
 }
 
 /*FOOTER*/
@@ -591,6 +637,37 @@ footer{
     margin:0 auto;
 }
 
+.footer-credits{
+    color:#ffffff;
+    font-size:18px;
+    font-weight:300;
+    text-align:center;
+    margin-top:29px;
+}
+
+@media (max-width:1024px){
+    footer{
+        height:413px;
+    }
+
+    .footer-first-column{
+        flex-basis:55%;
+    }
+
+    .footer-second-column,
+    .footer-third-column{
+        flex-basis:22%;
+    }
+
+    .social-icon{
+        font-size:26px;
+    }
+
+    .white-line{
+        width:439px;
+    }
+}
+
 @media (max-width:767px){
     .footer-first-column,
     .footer-second-column,
@@ -623,5 +700,9 @@ footer{
 
     .white-line{
         width:344px;
+    }
+
+    .footer-credits{
+        font-size:13px;
     }
 }
